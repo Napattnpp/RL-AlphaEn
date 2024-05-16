@@ -14,9 +14,9 @@ if __name__ == "__main__":
         2) Load RLE image then convert RLE image to AlphaEn image and save AlphaEn image
     '''
     alphaEncode(
-        imagePath='/Users/napat/Documents/VS-Workspace/ImageLab/Image-src/wildfire.jpeg',
-        outputPath='/Users/napat/Documents/VS-Workspace/ImageLab/Output/output-rle-wildfire.txt'
+        imagePath='',
+        outputPath=''
     )
     alphaDecode(
-        encodeImagePath='/Users/napat/Documents/VS-Workspace/ImageLab/Output/output-rle-wildfire.txt'
+        encodeImagePath=''
     )
