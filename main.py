@@ -17,6 +17,6 @@ if __name__ == "__main__":
         imagePath='',
         outputPath=''
     )
-    alphaDecode(
-        encodeImagePath=''
-    )
+    # alphaDecode(
+    #     encodeImagePath=''
+    # )
