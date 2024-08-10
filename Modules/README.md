@@ -1,6 +1,7 @@
 # Parameters
 ## 1. alpha -> (str)
-> [!WARNING] **No special character and Space**
+> [!WARNING]
+> **No special character and Space**
 ### Ex.
 ``` alphaEn.toDigit([‘A’]) ```
 
@@ -12,14 +13,16 @@
 
 ## 2. numberCharacters -> (List of char/str)
 ### Ex-1
-> [!NOTE] **‘0’ to ’25’ only**
+> [!NOTE]
+> **‘0’ to ’25’ only**
   
 ``` alphaEn.toAlpha([‘0’]) OUTPUT: A ```
 
 ``` alphaEn.toAlpha(['25', '5']) OUTPUT: ZF ```
 
 ### Ex-2
-> [!WARNING] **Not recommend**
+> [!WARNING]
+> **Not recommend**
 
 ``` alphaEn.toAlpha(‘0’) ```
 > OUTPUT: A
