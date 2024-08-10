@@ -46,13 +46,13 @@ class AlphaEn:
         return buffer
 
     # Union (char-list) to (int)
-    def union(this, charList):
-        return int(''.join(charList))
+    def union(this, numberCharacters):
+        return int(''.join(numberCharacters))
 
-    def toAlpha(this, charList):
+    def toAlpha(this, numberCharacters):
         buffer = []
 
-        for e in charList:
+        for e in numberCharacters:
             index = int(e)
             buffer.append(this.alphaList[index])
 
