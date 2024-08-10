@@ -1,16 +1,16 @@
 # Parameters
-1. alpha -> (str)
-* No special character and Space *
+## 1. alpha -> (str)
+> [!WARNING] **No special character and Space**
 ### Ex.
 ``` alphaEn.toDigit([‘A’]) ```
 
 ``` alphaEn.toDigit([‘Z’, ’F’]) ```
-# or
+#### or
 ``` alphaEn.toDigit(‘A’) ```
 
 ``` alphaEn.toDigit(“ZF”) ```
 
-1. numberCharacters -> (List of char/str)
+## 2. numberCharacters -> (List of char/str)
 ### Ex-1
 > [!NOTE] **‘0’ to ’25’ only**
   
