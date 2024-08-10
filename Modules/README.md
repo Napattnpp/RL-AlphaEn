@@ -16,16 +16,18 @@
 > [!NOTE]
 > **‘0’ to ’25’ only**
   
-``` alphaEn.toAlpha([‘0’]) OUTPUT: A ```
+``` alphaEn.toAlpha([‘0’]) ```
+> ``` OUTPUT: A ```
 
-``` alphaEn.toAlpha(['25', '5']) OUTPUT: ZF ```
+``` alphaEn.toAlpha(['25', '5']) ```
+> ``` OUTPUT: ZF ```
 
 ### Ex-2
 > [!WARNING]
 > **Not recommend**
 
 ``` alphaEn.toAlpha(‘0’) ```
-> OUTPUT: A
+> ``` OUTPUT: A ```
 
 ``` alphaEn.toAlpha(“255”) ```
-> OUTPUT: CFF
+> ``` OUTPUT: CFF ```
