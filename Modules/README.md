@@ -1,5 +1,5 @@
 # Parameters
-## 1. toDigit((str)alpha) -> 
+## 1. toDigit((str)alpha)
 > [!WARNING]
 > **No special character and Space**
 ### Ex.
@@ -11,7 +11,7 @@
 
 ``` alphaEn.toDigit(“ZF”) ```
 
-## 2. toAlpha((List of char/str)numberCharacters) -> 
+## 2. toAlpha((List of char/str)numberCharacters)
 ### Ex-1
 > [!NOTE]
 > **‘0’ to ’25’ only**
