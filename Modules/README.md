@@ -12,14 +12,17 @@
 
 1. numberCharacters -> (List of char/str)
 ### Ex-1
-* ‘0’ to ’25’ only *
+> [!NOTE] **‘0’ to ’25’ only**
+  
 ``` alphaEn.toAlpha([‘0’]) OUTPUT: A ```
 
 ``` alphaEn.toAlpha(['25', '5']) OUTPUT: ZF ```
 
 ### Ex-2
-> **Not recommend**
+> [!WARNING] **Not recommend**
 
-``` alphaEn.toAlpha(‘0’) OUTPUT: A ```
+``` alphaEn.toAlpha(‘0’) ```
+> OUTPUT: A
 
-``` alphaEn.toAlpha(“255”) OUTPUT: CFF ```
+``` alphaEn.toAlpha(“255”) ```
+> OUTPUT: CFF
