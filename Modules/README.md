@@ -2,11 +2,11 @@
 ## 1. toDigit((str)alpha)
 > [!WARNING]
 > **No special character and Space**
-### Ex.
+### Ex-1
 ``` alphaEn.toDigit([‘A’]) ```
 
 ``` alphaEn.toDigit([‘Z’, ’F’]) ```
-#### or
+### Ex-2
 ``` alphaEn.toDigit(‘A’) ```
 
 ``` alphaEn.toDigit(“ZF”) ```
