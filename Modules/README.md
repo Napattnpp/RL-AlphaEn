@@ -1,5 +1,5 @@
 # Parameters
-## 1. toDigit((str)alpha)
+## 1. toDigit((List of char/str)alpha)
 > [!WARNING]
 > **No special character and Space**
 ### Ex-1
